@@ -1,9 +1,9 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Home from "./Screens.txs/Home";
-import Generate from "./Screens.txs/Generate";
-import Scanner from "./Screens.txs/Scanner";
+import Home from "./screens/Home";
+import Generate from "./screens/Generate";
+import Scanner from "./screens/Scanner";
 
 const stack = createNativeStackNavigator()
 const App = () => {
